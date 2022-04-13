@@ -16,6 +16,10 @@ Outro motivo que me levou a utilizar essa plataforma é meu nível de conhecimen
 ## Índice
 * [O desafio](#o-desafio)
 * [Insatalação](#instalação)
+* [Execução](#execução)
+* [Populando o banco](#populando-o-banco)
+* [Informações de autenticação com Basic Auth](#informações-de-autenticação-com-basic-auth)
+* [Utilizando as rotas e o CRUD](#utilizando-as-rotas-e-o-crud)
 
 
 ## O desafio
@@ -55,7 +59,7 @@ O banco deve ser criado através da execução da API em main.py e populado apó
 $ sqlite3 db.sqlite3 < database/base.sql
 ```
 
-## Informações de autenticação (Basic Auth)
+## Informações de autenticação com Basic Auth
 ```
 username: ssys
 password: testessys
